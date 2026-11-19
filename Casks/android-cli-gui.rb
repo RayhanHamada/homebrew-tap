@@ -1,11 +1,11 @@
 cask "android-cli-gui" do
   arch arm: "macos-arm64", intel: "macos-x86_64"
 
-  version "0.1.3"
-  sha256 arm:   "0a4ca97c059d2025f5aa387d61382f90476040bfb498ac48f428903554819fda",
-         intel: "741b88fc480239bd4ad93dd908a1fce824f738baef4449038b6ebfebe0ab72da"
+  version "0.1.4"
+  sha256 arm:   "82c7a865cfb5f989eff4bc3ba1a31f0103bffc412ec380b4ca3d5682c2f983e1",
+         intel: "8ed242c317bc2cc6074b86ed1b518e830926bf7416eb26b9d66f6db33bc678a0"
 
-  url "https://github.com/RayhanHamada/android-cli-gui/releases/download/v#{version}/android-cli-gui-v#{version}-#{arch}.zip"
+  url "https://github.com/RayhanHamada/android-cli-gui/releases/download/v#{version}/android-cli-gui-v#{version}-#{arch}.dmg"
   name "Android CLI GUI"
   desc "Unofficial GUI for the official Android CLI"
   homepage "https://github.com/RayhanHamada/android-cli-gui"
